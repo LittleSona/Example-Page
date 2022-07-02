@@ -141,3 +141,43 @@ a{
     font-size: 22px;
     color: #1f2937;
 }
+
+.modal-body{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+.pop-up{
+    display: flex;
+    background-color: #3882f6;
+    height: 200px;
+    align-items: center;
+    border-radius: 25px;
+    gap: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.modal-title{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.modal-disc{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sign-up2{
+    background-color: #3882f6;
+    padding: 8px;
+    padding-left: 32px;
+    padding-right:32px;
+    border: 3px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin-top: 10px;
+    border-color:#E5E7EB;
+    border-style: solid;
+}

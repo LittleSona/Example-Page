@@ -1,12 +1,23 @@
 
 body{
 margin: 0;
+font-family: sans-serif;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+a:hover{
+    color: #3882f6;
+    transition: 0.3s;
+}
+
+button:hover{
+    color:#1f2937;
+    border-color: #1f2937;
+    transition: 0.3s;
 }
 
 .header-top{
@@ -40,6 +51,7 @@ a{
     justify-content: space-between;
     height: 400px;
     padding-top: 80px;
+    border-radius: 0 0 30px 30px;
 }
 
 .header-text{
@@ -73,6 +85,9 @@ a{
 .main{
     display: flex;
     flex-direction: column;
+    border-radius: 0 0 30px 30px;
+
+
 }
 
 .main-text{
@@ -87,7 +102,7 @@ a{
 .boxes{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -123,7 +138,7 @@ a{
     justify-content: center;
     align-items: center;
     height: 500px;
-    
+    border-radius:30px;  
 }
 .quote{
     font-size: 36px;

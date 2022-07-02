@@ -181,3 +181,11 @@ a{
     border-color:#E5E7EB;
     border-style: solid;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
